@@ -109,7 +109,7 @@ Untracked files:
 
 > 실제 `Git`을 통해 이력(버전)을 남기기 위해서는 `커밋(commit)`을 해야한다.
 
-* 커밋을 남길 때는 항상 커밋 메시지를 작성한다. 메시지는 해당 이력에 대한 정보를 가지고 있다.
+* 커밋을 남길 때는 항상 커밋 메시지를 작성한다. 메시지는 해당 이력에 대한 정보를 가햐지고 있다.
 
   ```bash
   $ git commit -m "작업 파일 추가" # ""안에 적절한 커밋 메시지를 작성한다.
@@ -181,6 +181,14 @@ origin으로 설정된 원격 저장소에 push한다(== 업로드한다!).
 
 ```bash
 $ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 23.37 KiB | 23.37 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/kang941194/TIL.git
+ * [new branch]      master -> master
 ```
 
 
